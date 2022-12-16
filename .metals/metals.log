@@ -6,3 +6,4 @@
 2022.12.15 15:19:47 WARN  Build server is not auto-connectable.
 2022.12.15 15:19:47 WARN  no build tool detected in workspace 'C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2022.12.15 15:19:47 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.15 20:57:38 INFO  shutting down Metals

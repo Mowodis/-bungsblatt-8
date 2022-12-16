@@ -1,28 +1,38 @@
 import numpy as np
 
-# Naive, inplace variant of min-selection sort
+# inplace variant of min-selection sort
 # based of `skript` page 558 
+#
+# @param takes an array/ list of integers as input
 def selectionSort(array):
     n = len(array)
-    sorted = []
+    
     for i in range(n):
         for j in range(i,n):
             if array[j] < array[i]:
                 temp = array[i]
                 array[i] = array[j]
                 array[j] = temp
+    
+    return array 
 
 
-# min-quicksort, pivot element chosen randomly
+# min-quicksort 
+# Pivot element chosen randomly
 # based of `skript` page 648
-# @param takes an array(list) of integers as input
 #
+# @param takes an array/ list of integers as input
 def quickSort(array):
     if len(array) == 1:
-        return array[0]
+        return [array[0]]
+    elif (len(array) == 0):
+        return []
     else:
         n = len(array)
-        pivot = np.random.randint(low=0, high=n)
+
+        pivotIndex = np.random.randint(low=0, high=n)
+        pivot = array[pivotIndex]
+
         arrMinus = []
         arrEqual = []
         arrPlus = []
@@ -34,6 +44,6 @@ def quickSort(array):
                 arrEqual.append(array[i])
             elif array[i] > pivot:
                 arrPlus.append(array[i])
-        
-        return [quickSort(arrMinus), quickSort[arrEqual], quickSort[arrPlus]]
+    
+        return sum([quickSort(arrMinus), arrEqual, quickSort(arrPlus)], [])
 
