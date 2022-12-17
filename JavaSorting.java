@@ -27,8 +27,9 @@ class JavaSorting {
     /**
      * implementation of min-quicksort 
      * based of it's python counterpart in `pythonSort.py`
+     * insetead of using lists, a (perhaps suboptimal) implementation using arrays has been chosen.
      * 
-     * @param array first element indecates, how full 
+     * @param array first element at index 0 must indicate the number of contained elements +1 
      * @return the sorted input array as list
      */
     public static int[] quickSort(int[] array) {
@@ -86,10 +87,19 @@ class JavaSorting {
     */
     public static int[] removeHead(int[] array) {
         int[] result = new int[array[0]-1];
+        System.arraycopy(array, 1, result, 0, array[0]-1);
 
-        for (int i = 0; i < result.length; i++) {
-            result[i] = array[i+1];
-        }
+        return result;
+    }
+
+    /**
+     * Helper function.
+     * Turns an array into a fitting input for quicksort
+     */
+    public static int[] addHead(int[] array) {
+        int[] result = new [array.length + 1];
+        System.arraycopy(array, 0, result, 1, array.lenght);
+        result[0] = array.length + 1;
 
         return result;
     }
