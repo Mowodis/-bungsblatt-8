@@ -7,8 +7,8 @@ import numpy as np
 def selectionSort(array):
     n = len(array)
     
-    for i in range(n):
-        for j in range(i,n):
+    for i in range(n-1):
+        for j in range(i+1,n):
             if array[j] < array[i]:
                 temp = array[i]
                 array[i] = array[j]
