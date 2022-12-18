@@ -1111,3 +1111,1117 @@ WARNUNG: Unmatched cancel notification for request id 1072
 2022.12.18 08:23:58 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
 2022.12.18 08:25:02 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
 2022.12.18 08:25:30 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 08:46:45 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+Dez 18, 2022 8:47:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:47:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.18 08:47:37 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 8:49:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 8:49:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.18 08:49:28 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 08:56:27 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 08:59:01 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 08:59:21 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 9:03:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 2569
+Dez 18, 2022 9:17:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 3227
+2022.12.18 09:25:52 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:26:08 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:26:30 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:26:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:28:06 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:28:31 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:28:41 WARN  Cannot tokenize Java file file:///C:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/JavaRuntime.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(null)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(null)
+	at java.lang.reflect.Method.invoke(null)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Dez 18, 2022 9:28:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 9:33:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 4786
+2022.12.18 09:33:40 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+Dez 18, 2022 9:36:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 4925
+2022.12.18 09:36:43 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+Dez 18, 2022 9:37:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getRawTokenSource(PublicScanner.java:597)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:83)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Dez 18, 2022 9:37:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getRawTokenSource(PublicScanner.java:597)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:83)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.18 09:39:57 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:40:12 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:40:29 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:40:48 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:41:01 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:43:32 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:44:17 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:44:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:45:31 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:48:43 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+Dez 18, 2022 9:49:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 6068
+2022.12.18 09:49:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 09:50:12 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:50:55 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:52:02 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:53:04 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:56:22 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:57:04 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:58:29 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 9:58:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 6437
+2022.12.18 09:58:54 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:59:33 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 09:59:47 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 10:01:49 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 10:06:33 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaRuntime.java
+2022.12.18 10:07:55 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 10:10:16 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 10:10:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNUNG: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "jdt://contents/java.base/java.util/Random.class?%3DUebungsblatt-8_b84426c3%2FC%3A%5C%2FProgram%20Files%5C%2FJava%5C%2Fjdk-18.0.1%5C%2Flib%5C%2Fjrt-fs.jar%60java.base%3D%2Fjavadoc_location%3D%2Fhttps%3A%5C%2F%5C%2Fdocs.oracle.com%5C%2Fen%5C%2Fjava%5C%2Fjavase%5C%2F18%5C%2Fdocs%5C%2Fapi%5C%2F%3D%2F%3Cjava.util%28Random.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "jdt" not installed
+	at java.nio.file.Paths.get(Unknown Source)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:117)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:143)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
+	... 15 more
+
+2022.12.18 10:11:16 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 10:13:10 INFO  shutting down Metals
+2022.12.18 10:27:18 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\.metals\lsp.trace.json or C:\Users\Mowodis\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.18 10:27:19 INFO  logging to file C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\.metals\metals.log
+2022.12.18 10:27:19 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8' for client Visual Studio Code 1.74.1.
+2022.12.18 10:27:19 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: D:\Program Files\Java, javac exists: false)
+2022.12.18 10:27:20 INFO  time: initialize in 1.15s
+2022.12.18 10:27:21 WARN  Build server is not auto-connectable.
+2022.12.18 10:27:21 WARN  no build tool detected in workspace 'C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.18 10:27:21 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 11:03:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 62
+2022.12.18 11:03:25 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:03:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:04:41 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 11:05:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 222
+2022.12.18 11:05:28 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:05:43 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 11:06:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 312
+2022.12.18 11:07:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:09:30 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:12:06 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:12:37 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:14:31 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:14:52 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 11:14:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 721
+Dez 18, 2022 11:14:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 724
+2022.12.18 11:15:05 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:15:25 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 11:17:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 892
+2022.12.18 11:19:14 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:21:17 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:22:48 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:23:10 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:24:06 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:27:13 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:27:17 WARN  Cannot tokenize Java file file:///C:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/JavaSorting.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(null)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(null)
+	at java.lang.reflect.Method.invoke(null)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Dez 18, 2022 11:27:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.18 11:27:20 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 11:27:30 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 11:50:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+Dez 18, 2022 11:50:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace

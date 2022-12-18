@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.ArrayList;
-
-class JavaSorting {
+public class JavaSorting {
 
     /**
      * implementation of min-selection sort
@@ -148,14 +145,14 @@ class JavaSorting {
     }
 
     /**
-     * helper funtion to print an array of integers
-     * debugging purposes 
+     * helper funtion to print an array of doubles
+     * Debugging purposes 
      * 
      * @param list
      */
-    public static void printList(int[] list) {
-        for (int j = 0; j<list.length; j++) {
-            System.out.print(list[j]+" ");
+    public static void printArray(double[] array) {
+        for (int j = 0; j < array.length; j++) {
+            System.out.print(array[j]+", ");
         }
         System.out.println("");
     }
@@ -236,13 +233,55 @@ class JavaSorting {
         }      
     }
 
+    // =================  End of Testing  ===================
+    // ================= Begin of Runtime ===================
+
+    /**
+     * Determines the running times for given array sizes for selection- and quicksort
+     * Prints the results into the console
+     */
+    public static void getRunningTime() {
+        int[] array_sizes =  {10, 100, 500, 1000, 1500, 2000, 2500, 3000, 5000, 7500, 10000}; // messung für verschiedenen array-längen
+        double[] s_times = new double[array_sizes.length];
+        double[] q_times = new double[array_sizes.length];
+    
+        for (int i = 0; i < array_sizes.length; i++) {
+
+            // generate the random array for selection sort
+            int[] arrayS = new int[array_sizes[i]];
+            for (int j = 0; j < arrayS.length; j++) {
+                arrayS[j] = (int)(Math.random() * (1000000 + 1));
+            }
+            
+            // copying the array for quicksort
+            int[] arrayQ = new int[array_sizes[i]]; 
+            System.arraycopy(arrayS, 0, arrayQ, 0, arrayQ.length);
+            arrayQ = addHead(arrayQ);
+            
+            // getting time for selection sort
+            long start = System.nanoTime();
+            selectionSort(arrayS);  // sorting the array via selection sort
+            long end = System.nanoTime();
+            s_times[i] = ((end-start) * 0.000000001); // time in seconds
+
+            // getting time for quicksort sort
+            start = System.nanoTime();
+            quickSort(arrayQ);  // sorting the array via qucicksort
+            end = System.nanoTime();
+            q_times[i] = ((end-start) * 0.000000001); // die zeit in sekunden
+        }  
+        
+        // printing the results
+        System.out.print("Running times for selection sort: ");
+        printArray(s_times);
+        System.out.print("Running times for quicksort: ");
+        printArray(q_times);
+    }
+
     public static void main(String[] args) {
         testing();
+        System.out.println(""); // spacer
+        getRunningTime();
     }
 
 }
-
-
-
-
-
