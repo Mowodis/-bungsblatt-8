@@ -52,6 +52,7 @@ class JavaSorting {
             int[] arrPlus = new int[array[0]];
             arrPlus[0] = 1;
 
+            // filling the three subarrays with apropriate elements from the input
             for (int i = 1; i < n; i++) {
                 if (array[i] < pivot) {
                     arrMinus[arrMinus[0]] = array[i];
@@ -64,6 +65,12 @@ class JavaSorting {
                     arrPlus[0] += 1;
                 }
             }
+
+            // remove unused array fields
+            arrMinus = trimArray(arrMinus);
+            arrEqual = trimArray(arrEqual);
+            arrPlus = trimArray(arrPlus);
+            
             // concatinate arrMinus, arrEqual and arrPlus. Calling quicksort recursivly
             int[] result = new int[n-1];
 
@@ -81,7 +88,7 @@ class JavaSorting {
     /** 
      * Helper function. 
      * Removes the head of an array, i.e the index counter.
-     * Also removes the list
+     * Also removes the lists access slots, which don't contain elements
      * 
      * @param array an array with the index counter as element with index 0 
     */
@@ -97,9 +104,23 @@ class JavaSorting {
      * Turns an array into a fitting input for quicksort
      */
     public static int[] addHead(int[] array) {
-        int[] result = new [array.length + 1];
-        System.arraycopy(array, 0, result, 1, array.lenght);
+        int[] result = new int[array.length + 1];
+        System.arraycopy(array, 0, result, 1, array.length);
         result[0] = array.length + 1;
+
+        return result;
+    }
+
+    /**
+     * Helper function
+     * Trims an array, removes unsused fields
+     * 
+     * @param array
+     * @return 
+     */
+    public static int[] trimArray(int[] array) {
+        int[] result = new int[array[0]];
+        System.arraycopy(array, 0, result, 0, array[0]);
 
         return result;
     }
@@ -165,11 +186,7 @@ class JavaSorting {
         for (int i = 0; i < testsQ.length; i++) {
             
             // append the length of the input as head of the array
-            int[] tempArr = new int[testsQ[i].length+1];
-            for (int j = 1; j < tempArr.length; j++) {
-                tempArr[j] = testsQ[i][j-1];
-            }
-            tempArr[0] = testsQ[i].length+1;
+            int[] tempArr = addHead(testsQ[i]);
             
             // run quicksort
             int[] output = quickSort(tempArr); 
