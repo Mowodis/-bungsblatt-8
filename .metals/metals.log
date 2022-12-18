@@ -2225,3 +2225,14 @@ Dez 18, 2022 11:50:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFORMATION: Unsupported notification method: $/setTrace
 Dez 18, 2022 11:50:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMATION: Unsupported notification method: $/setTrace
+Dez 18, 2022 4:55:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+Dez 18, 2022 5:00:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+Dez 18, 2022 5:03:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMATION: Unsupported notification method: $/setTrace
+2022.12.18 18:03:23 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+Dez 18, 2022 6:04:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 1934
+2022.12.18 18:07:29 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 18:09:25 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java

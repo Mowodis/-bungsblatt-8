@@ -44,6 +44,6 @@ def quickSort(array):
                 arrEqual.append(array[i])
             elif array[i] > pivot:
                 arrPlus.append(array[i])
-    
+        
         return sum([quickSort(arrMinus), arrEqual, quickSort(arrPlus)], [])
 

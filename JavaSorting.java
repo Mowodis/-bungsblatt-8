@@ -26,8 +26,8 @@ public class JavaSorting {
      * based of it's python counterpart in `pythonSort.py`
      * insetead of using lists, a (perhaps suboptimal) implementation using arrays has been chosen.
      * 
-     * @param array first element at index 0 must indicate the number of contained elements +1 
-     * @return the sorted input array as list
+     * @param array first element at index 0 must indicate the number of contained elements +1 (itselfe excluded) 
+     * @return the sorted input array 
      */
     public static int[] quickSort(int[] array) {
         if (array[0] == 2) {
@@ -41,7 +41,7 @@ public class JavaSorting {
             int pivotIndex = (int)(Math.random() * (n-1) + 1);
             int pivot = array[pivotIndex];
 
-            // using the first element of the array as an index counter, to mimic the of a list when adding an element
+            // using the first element of the array as an index counter, to mimic the behavior of a list when adding an element
             int[] arrMinus = new int[array[0]];
             arrMinus[0] = 1;
             int[] arrEqual = new int[array[0]];
@@ -49,7 +49,7 @@ public class JavaSorting {
             int[] arrPlus = new int[array[0]];
             arrPlus[0] = 1;
 
-            // filling the three subarrays with apropriate elements from the input
+            // filling the three subarrays with elements from the input via pivot element
             for (int i = 1; i < n; i++) {
                 if (array[i] < pivot) {
                     arrMinus[arrMinus[0]] = array[i];
@@ -85,9 +85,9 @@ public class JavaSorting {
     /** 
      * Helper function. 
      * Removes the head of an array, i.e the index counter.
-     * Also removes the lists access slots, which don't contain elements
+     * Also removes the arrays unused flieds
      * 
-     * @param array an array with the index counter as element with index 0 
+     * @param array with the index counter as element with index 0 
     */
     public static int[] removeHead(int[] array) {
         int[] result = new int[array[0]-1];
@@ -112,8 +112,8 @@ public class JavaSorting {
      * Helper function
      * Trims an array, removes unsused fields
      * 
-     * @param array
-     * @return 
+     * @param array with the index counter as element with index 0 
+     * @return array wihtout index counter
      */
     public static int[] trimArray(int[] array) {
         int[] result = new int[array[0]];
@@ -131,7 +131,7 @@ public class JavaSorting {
      * Helper function to allow for better testing
      * 
      * @param expected expected output
-     * @param input output of a list-mutation function (here: selection sort or quicksort)
+     * @param input output of a list-mutation function (here: output of selection sort or quicksort)
      * @return boolean: wether the input list equals the expected list
      */
     public static boolean assertEqual(int[] expected, int[] input) {
@@ -145,7 +145,7 @@ public class JavaSorting {
     }
 
     /**
-     * helper funtion to print an array of doubles
+     * Helper funtion to print an array of doubles
      * Debugging purposes 
      * 
      * @param list
@@ -268,7 +268,7 @@ public class JavaSorting {
             start = System.nanoTime();
             quickSort(arrayQ);  // sorting the array via qucicksort
             end = System.nanoTime();
-            q_times[i] = ((end-start) * 0.000000001); // die zeit in sekunden
+            q_times[i] = ((end-start) * 0.000000001); // time in seconds
         }  
         
         // printing the results
