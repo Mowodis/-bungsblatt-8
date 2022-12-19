@@ -1,5 +1,8 @@
-public class JavaSorting {
+import java.util.ArrayList;
+import java.util.List;
 
+public class JavaSorting {
+    
     /**
      * implementation of min-selection sort
      * based of it's python counterpart in `pythonSorting.py`
@@ -20,108 +23,79 @@ public class JavaSorting {
         }
         return array;
     }
-    
+
     /**
      * implementation of min-quicksort 
      * based of it's python counterpart in `pythonSort.py`
-     * insetead of using lists, a (perhaps suboptimal) implementation using arrays has been chosen.
      * 
-     * @param array first element at index 0 must indicate the number of contained elements +1 (itselfe excluded) 
-     * @return the sorted input array 
+     * @param list of integers as input
+     * @return the sorted list 
      */
-    public static int[] quickSort(int[] array) {
-        if (array[0] == 2) {
-            int[] single = {array[1]};
-            return single;
-        } else if (array[0] == 1) {
-            int[] empty = {};
-            return empty;
+    public static List<Integer> quickSort(List<Integer> list) {
+        if (list.size() == 1) {
+            return list;
+        } else if (list.size() == 0) {
+            return list;
         } else {
-            int n = array[0];
-            int pivotIndex = (int)(Math.random() * (n-1) + 1);
-            int pivot = array[pivotIndex];
+            int n = list.size();
+            int pivotIndex = (int)(Math.random() * (n));
+            int pivot = list.get(pivotIndex);
 
-            // using the first element of the array as an index counter, to mimic the behavior of a list when adding an element
-            int[] arrMinus = new int[array[0]];
-            arrMinus[0] = 1;
-            int[] arrEqual = new int[array[0]];
-            arrEqual[0] = 1;
-            int[] arrPlus = new int[array[0]];
-            arrPlus[0] = 1;
+            List<Integer> arrMinus = new ArrayList<>();
+            List<Integer> arrEqual = new ArrayList<>();
+            List<Integer> arrPlus = new ArrayList<>();
 
             // filling the three subarrays with elements from the input via pivot element
-            for (int i = 1; i < n; i++) {
-                if (array[i] < pivot) {
-                    arrMinus[arrMinus[0]] = array[i];
-                    arrMinus[0] += 1;
-                } else if (array[i] == pivot) {
-                    arrEqual[arrEqual[0]] = array[i];
-                    arrEqual[0] += 1;
-                } else if (array[i] > pivot) {
-                    arrPlus[arrPlus[0]] = array[i];
-                    arrPlus[0] += 1;
+            for (int i = 0; i < n; i++) {
+                if (list.get(i) < pivot) {
+                    arrMinus.add(list.get(i));
+                } else if (list.get(i).equals(pivot)) {
+                    arrEqual.add(list.get(i));
+                } else if (list.get(i) > pivot) {
+                    arrPlus.add(list.get(i));
                 }
-            }
+            }    
+            List<Integer> result = new ArrayList<>();
 
-            // remove unused array fields
-            arrMinus = trimArray(arrMinus);
-            arrEqual = trimArray(arrEqual);
-            arrPlus = trimArray(arrPlus);
-            
-            // concatinate arrMinus, arrEqual and arrPlus. Calling quicksort recursivly
-            int[] result = new int[n-1];
-
-            int[] resMinus = quickSort(arrMinus);
-            int[] resEqual = removeHead(arrEqual);
-            int[] resPlus = quickSort(arrPlus);
-            System.arraycopy(resMinus, 0, result, 0                       , resMinus.length);
-            System.arraycopy(resEqual, 0, result, resMinus.length                  , resEqual.length);
-            System.arraycopy(resPlus,  0, result, resMinus.length + resEqual.length, resPlus.length);
-
+            result.addAll(quickSort(arrMinus));
+            result.addAll(arrEqual);
+            result.addAll(quickSort(arrPlus));
+    
             return result;
         }
     }
 
-    /** 
-     * Helper function. 
-     * Removes the head of an array, i.e the index counter.
-     * Also removes the arrays unused flieds
+    /**
+     * Helper function to easily convert a list to array
      * 
-     * @param array with the index counter as element with index 0 
-    */
-    public static int[] removeHead(int[] array) {
-        int[] result = new int[array[0]-1];
-        System.arraycopy(array, 1, result, 0, array[0]-1);
+     * @param list of integers
+     * @return array of same integees
+     */
+    public static int[] listToArray (List<Integer> list) {
+        int[] result = new int[list.size()];
+
+        for (int i = 0; i < list.size(); i++) {
+            result[i] = list.get(i);
+        }
 
         return result;
     }
 
     /**
-     * Helper function.
-     * Turns an array into a fitting input for quicksort
-     */
-    public static int[] addHead(int[] array) {
-        int[] result = new int[array.length + 1];
-        System.arraycopy(array, 0, result, 1, array.length);
-        result[0] = array.length + 1;
-
-        return result;
-    }
-
-    /**
-     * Helper function
-     * Trims an array, removes unsused fields
+     * Helper function to easily convert an array to list
      * 
-     * @param array with the index counter as element with index 0 
-     * @return array wihtout index counter
+     * @param array of integers
+     * @return list of same integees
      */
-    public static int[] trimArray(int[] array) {
-        int[] result = new int[array[0]];
-        System.arraycopy(array, 0, result, 0, array[0]);
+    public static List<Integer> arrayToList (int[] array) {
+        List<Integer> result = new ArrayList<>();
+
+        for (int i = 0; i < array.length; i++) {
+           result.add(array[i]);
+        }
 
         return result;
     }
-
     /** 
      * ===================== End of Sorting Functions ========================
      * =====================     Begin of Testing     ========================
@@ -182,11 +156,9 @@ public class JavaSorting {
         // testing quicksort
         for (int i = 0; i < testsQ.length; i++) {
             
-            // append the length of the input as head of the array
-            int[] tempArr = addHead(testsQ[i]);
-            
             // run quicksort
-            int[] output = quickSort(tempArr); 
+            List<Integer> input = arrayToList(testsQ[i]);
+            int[] output = listToArray(quickSort(input)); 
 
             //print results of tests
             if (assertEqual(valuesQ.getSolutions()[i], output)) {
@@ -256,8 +228,7 @@ public class JavaSorting {
             // copying the array for quicksort
             int[] arrayQ = new int[array_sizes[i]]; 
             System.arraycopy(arrayS, 0, arrayQ, 0, arrayQ.length);
-            arrayQ = addHead(arrayQ);
-            
+
             // getting time for selection sort
             long start = System.nanoTime();
             selectionSort(arrayS);  // sorting the array via selection sort
@@ -265,8 +236,9 @@ public class JavaSorting {
             s_times[i] = ((end-start) * 0.000000001); // time in seconds
 
             // getting time for quicksort sort
+            
             start = System.nanoTime();
-            quickSort(arrayQ);  // sorting the array via qucicksort
+            quickSort(arrayToList(arrayQ));  // sorting the array via qucicksort
             end = System.nanoTime();
             q_times[i] = ((end-start) * 0.000000001); // time in seconds
         }  
@@ -283,5 +255,4 @@ public class JavaSorting {
         System.out.println(""); // spacer
         getRunningTime();
     }
-
 }

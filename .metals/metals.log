@@ -2236,3 +2236,302 @@ Dez 18, 2022 6:04:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNUNG: Unmatched cancel notification for request id 1934
 2022.12.18 18:07:29 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
 2022.12.18 18:09:25 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.18 21:45:58 INFO  shutting down Metals
+2022.12.19 07:23:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\.metals\lsp.trace.json or C:\Users\Mowodis\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.19 07:23:58 INFO  logging to file C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\.metals\metals.log
+2022.12.19 07:23:58 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8' for client Visual Studio Code 1.74.1.
+2022.12.19 07:23:58 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(8), jdkHome: D:\Program Files\Java, javac exists: false)
+2022.12.19 07:23:59 INFO  time: initialize in 0.81s
+2022.12.19 07:24:00 WARN  Build server is not auto-connectable.
+2022.12.19 07:24:00 WARN  no build tool detected in workspace 'C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.19 07:24:00 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.19 07:24:02 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 07:24:21 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 07:28:12 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 07:33:23 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+Dez 19, 2022 7:36:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 510
+2022.12.19 07:40:37 WARN  Cannot tokenize Java file file:///C:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/NewJava.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(null)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(null)
+	at java.lang.reflect.Method.invoke(null)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Dez 19, 2022 7:40:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.19 07:40:56 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 07:41:12 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+Dez 19, 2022 7:45:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 1822
+2022.12.19 07:47:56 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+Dez 19, 2022 7:49:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 2321
+2022.12.19 07:58:41 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+Dez 19, 2022 8:00:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 3803
+2022.12.19 08:01:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:03:42 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:03:52 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:05:24 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:07:42 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+Dez 19, 2022 8:08:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 4207
+2022.12.19 08:14:40 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:14:51 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:14:56 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:17:01 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:18:39 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:18:42 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:18:44 WARN  Cannot tokenize Java file file:///C:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/NewJava.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(null)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(null)
+	at java.lang.reflect.Method.invoke(null)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Dez 19, 2022 8:18:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.19 08:18:44 WARN  Cannot tokenize Java file file:///C:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/NewJava.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(null)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(null)
+	at java.lang.reflect.Method.invoke(null)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Dez 19, 2022 8:18:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.19 08:18:46 WARN  Cannot tokenize Java file file:///C:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/NewJava.javaorg.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLanguageServer.didChange(MetalsLanguageServer.scala:1244)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(null)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(null)
+	at java.lang.reflect.Method.invoke(null)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+Dez 19, 2022 8:18:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SCHWERWIEGEND: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:147)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1760)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.12.19 08:18:50 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:21:00 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:22:06 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:24:01 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:25:19 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:25:49 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:26:09 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:28:04 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:28:20 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+2022.12.19 08:29:18 ERROR text document: file:///c:/Users/Mowodis/Desktop/Studium/Semester_3/Theoretische%20Informatik%201/Übungen/Übung%208/Uebungsblatt-8/NewJava.javajava.nio.file.NoSuchFileException: c:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\NewJava.java
+	at sun.nio.fs.WindowsException.translateToIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(null)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.newByteChannel(null)
+	at java.nio.file.Files.readAllBytes(null)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(null)
+	at java.util.Collections$SynchronizedMap.compute(null)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1744)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1742)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2022.12.19 08:29:30 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.19 08:29:39 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
