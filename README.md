@@ -1,6 +1,8 @@
 ## Affiliation
 This repository exists due to the course: `Eberhard Karls Unisversität, Theoretische Informatik 1 - Algorithmen und Datenstrukturen, Ulrike von Luxburg, 2022/2023`
 
+Worksheet: `Nr. 8`
+
 Handin of: `Marcel Heine` and `Edwin Hoffmann`
 
 Tutor: `Long Nguyen`
