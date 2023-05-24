@@ -2535,3 +2535,4 @@ Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_
 
 2022.12.19 08:29:30 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
 2022.12.19 08:29:39 WARN  no build target for: C:\Users\Mowodis\Desktop\Studium\Semester_3\Theoretische Informatik 1\Übungen\Übung 8\Uebungsblatt-8\JavaSorting.java
+2022.12.19 08:48:36 INFO  shutting down Metals
