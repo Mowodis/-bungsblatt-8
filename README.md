@@ -6,6 +6,8 @@ Worksheet: Nr. 8
 
 Handin of: Marcel Heine and Edwin Hoffmann
 
+Date 18.12.2022
+
 Tutor: Long Nguyen
 
 Whenever a skript is mentioned, it's refering to the skript accompanying the lecture: [Skript](http://www.tml.cs.uni-tuebingen.de/teaching/2022_algorithmen/downloads_protected/vorlesung_main.pdf) (12.12.2022)
